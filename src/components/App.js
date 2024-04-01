@@ -3,6 +3,7 @@ import "../styles/App.css";
 import ChildCom from "./ChildCom";
 
 const App = () => {
+  console.log("test");
   return (
     <div id="main">
       {Data.map((item, i) => {
